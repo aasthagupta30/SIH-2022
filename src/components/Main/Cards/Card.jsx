@@ -36,7 +36,9 @@ const Card = styled.div`
 		}
 
 		& > .img-0{
-			width: 65%;
+			width: 80%;
+			height: 150px;
+			object-fit: cover;
 		}
 
 		& > .img-1{
@@ -49,10 +51,12 @@ const Card = styled.div`
 
 		& > .img-3{
 			width: 90%;
+			height: 90%
 		}
 
 		& > .img-4{
 			width: 85%;
+			height: 100%
 		}
 
 	}

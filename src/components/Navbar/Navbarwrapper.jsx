@@ -75,10 +75,12 @@ const Navbarwrapper = () => {
 							>
 								<img
 									src={require('./main.png')}
-									alt='practo_logo'
+									alt='krishi_logo'
 									style={{
 										maxWidth: '250px',
-										maxHeight: '250px'
+										maxHeight: '250px',
+										margin:'0px',
+										padding:'0px'
 									}}
 								/>{' '}
 							</Link>{' '}

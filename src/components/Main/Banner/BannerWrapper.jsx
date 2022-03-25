@@ -5,9 +5,10 @@ const BannerWrapper = styled.div`
 	min-height: 250px;
 
 	& > img {
-		width: 68%;
+		width: 77%;
 		cursor: pointer;
 		max-width: 1350px;
+		border-radius: 22px;
 	}
 `;
 
