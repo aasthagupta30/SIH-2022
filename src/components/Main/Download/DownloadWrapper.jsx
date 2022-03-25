@@ -8,7 +8,7 @@ const DownloadWrapper = () => {
 			<Download className='download content'>
 				<div id="download_left" className='left'>
 					<img
-						src='https://www.practostatic.com/consumer-home/desktop/images/1597423628/footer-img.png'
+						src={require('./video consultance.jpeg')}
 						alt='download practo app'
 					/>
 				</div>

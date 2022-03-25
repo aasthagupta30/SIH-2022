@@ -753,7 +753,7 @@ export default function FindDoctors() {
               <div>
                 <div>
                   <img
-                    src="//www.practostatic.com/web-assets/home/assets/images/download.a9fb5307ceed47df0af1f39cf4e95519.png"
+                    src={require('./Group 1.png')}
                     alt="img"
                   />
                 </div>
@@ -762,7 +762,7 @@ export default function FindDoctors() {
             <div className={styles.flex1}>
               <div>
                 <div className={styles.flex1Heading}>
-                  <h2>Download the Krishi Konnect app</h2>
+                  <h4>Download the Krishi Konnect app</h4>
                 </div>
                 <div className={styles.tickBox}>
                   <div>

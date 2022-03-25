@@ -41,7 +41,7 @@ const Wrapper = styled.div`
 
 		& .speciality_card {
 			padding: 3rem;
-			width: 18rem;
+			width: 20rem;
 			position: relative;
 			text-align: center;
 		}
