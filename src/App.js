@@ -16,7 +16,8 @@ import Flow2ConsultPage from './components/Flow2Consult/Flow2ConsultPage';
 import Payment from './components/Payment/Payment';
 import Videoconsult from './components/Videoconsult/Videoconsult';
 import Appointment from './components/Main/Appointment/Appointment';
-
+import Signup from './components/Navbar/signup';
+// import Signup from './components/Navbar/signup';
 function App() {
 	return (
 		<div className='App'>
@@ -26,6 +27,7 @@ function App() {
 					<Main>
 						<SearchbarWrapper>
 							<Searchbar />
+						
 						</SearchbarWrapper>
 						<Banner bannerImg='https://www.practostatic.com/consumer-home/desktop/images/1597423628/practo_care_dweb_banner.png' />
 						<CardsWrapper />
@@ -37,7 +39,11 @@ function App() {
 				<Route exact path='/doctors'>
 					<FindDoctors />
 				</Route>
-				<Route exact path='/consultpage'>
+				<Route path='/signup'> 
+					<Signup/>
+					{/* <loginKrishi /> */}
+				</Route> 
+				<Route exactpath='/consultpage'>
 					<ConsultPage />
 				</Route>
 				<Route exact path='/consult-doctor'>
