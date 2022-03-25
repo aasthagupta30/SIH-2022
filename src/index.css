@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+@font-face {
+  font-family: 'Camphor';
+  src: local('Camphor'), url(./fonts/677b110e-fe2c-4af7-b50b-3e8f00c371ce.woff2) format('woff2');
+}
+
+
+@font-face {
+  font-family: 'CamphorBold';
+  src: local('CamphorBold'), url(./fonts/c96be38e-ea64-418f-ae54-e757ed92b069.woff2) format('woff2');
+}
+
+:root {
+	/* Primary Colors */
+	--primary-color: #28328c;
+	--primary-gradient: linear-gradient(to right, #333fa4, #151c5a);
+
+	/* Secondary Colors */
+	--secondary-purple-1: #8a45e6;
+	--secondary-pink-1: #ffdef7;
+	--secondary-blue-1: #1ebef0;
+	--secondary-blue-2: #afcfed;
+	--secondary-green-2: #98cbd6;
+	--secondary-gray-1: #ccd0db;
+	--secondary-blue-2: #a2cae7;
+	--secondary-purple-2: #d5d8fc;
+	--secondary-purple-3: #edf1ff;
+	--secondary-white-2: #f8f8fb;
+	--secondary-face-2: #f8e9e6;
+
+	/* Text Colors */
+	--font-black: #2d2d32;
+	--font-gray: #b4b4c4;
+
+	/* Font Size */
+	font-size: 62.5%;
+}
+
+body {
+	margin: 0;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background-color: #f1f0f5;
+}
+
+* {
+	/* font-family: 'PT Sans', sans-serif; */
+	font-family: 'Camphor', 'PT Sans', sans-serif;
+}
+
+*,
+:after,
+:before,
+html {
+	box-sizing: border-box;
+}
+
+code {
+	/* font-family: 'PT Sans', sans-serif; */
+	font-size: 1.4rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	width: 100%;
+}
+
+/* Helper Classes */
+.txt-gray {
+	color: var(--font-gray);
+}
+
+.txt-black {
+	color: var(--font-black);
+}
+
+.txt-blue {
+	color: var(--secondary-blue-1);
+}
+
+.mt-60 {
+	margin-top: 60px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number]{
+	-moz-appearance: textfield;
+}
