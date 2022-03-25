@@ -259,7 +259,7 @@ const Navbarwrapper = () => {
 									}}
 								>
 									<span>
-										<Link className='navbar_login' to='/Signup'>
+										<Link className='navbar_login' to='/signup'>
 											Login / Signup{' '}
 										</Link>{' '}
 									</span>{' '}
