@@ -13,35 +13,38 @@ export default function FindDoctors() {
     {
       img: "https://www.practostatic.com/fit/e5df380532ad97807c4b2e414a458cc292b1a53e",
 
-      title: "6 Weight Loss Tips to Follow",
+      title: "Tips to follow for greater farm produce",
       spanDoctors: "Dr. Yogesh Kumar, Alternative Medicine",
       likeSpan: "309 Likes● 36501Views",
     },
     {
       img: "https://www.practostatic.com/fit/1da3446c1aca11295e4ea403b52fe8bc80b4c7c1",
 
-      title: "6 Weight Loss Tips to Follow",
+      title: "Tips to follow for greater farm produce",
       spanDoctors: "Dr. Yogesh Kumar, Alternative Medicine",
       likeSpan: "309 Likes● 36501Views",
     },
     {
       img: "https://www.practostatic.com/fit/6147081e5f5d09a285ee9904bfdd26bf96998d47",
 
-      title: "6 Weight Loss Tips to Follow",
+      title: "Tips to follow for greater farm produce",
+      
       spanDoctors: "Dr. Yogesh Kumar, Alternative Medicine",
       likeSpan: "309 Likes● 36501Views",
     },
     {
       img: "https://www.practostatic.com/fit/1248187c88fa20fb11116f02779b39d48c3c9b3d",
 
-      title: "6 Weight Loss Tips to Follow",
+      title: "Tips to follow for greater farm produce",
+      
       spanDoctors: "Dr. Yogesh Kumar, Alternative Medicine",
       likeSpan: "309 Likes● 36501Views",
     },
     {
       img: "https://www.practostatic.com/fit/eb77fb7edc101645ee455f878299f68f8a3766c4",
 
-      title: "6 Weight Loss Tips to Follow",
+      title: "Tips to follow for greater farm produce",
+      
       spanDoctors: "Dr. Yogesh Kumar, Alternative Medicine",
       likeSpan: "309 Likes● 36501Views",
     },
@@ -51,14 +54,14 @@ export default function FindDoctors() {
     {
       starIcon: "ion-ios7-star",
       summary:
-        " Very helpful. Far easier than doing same things oncomputer. Allows quick and easy search with speedybooking. Even maintains history of doctors visited.",
+        " Very helpful. Far easier than doing same things oncomputer. Allows quick and easy search with speedybooking. Even maintains history of experts consulted.",
       personIcon: "ion-ios7-person-outline",
-      name: "Amit Sharma",
+      name: "Aditya Pathak",
     },
     {
       starIcon: "ion-ios7-star",
       summary:
-        "Boon for patients.God bless who made this app.I would not recover so soon if this app would not be there. Feedback- Practo has doctor for common disease or complications.It should focus on those complications which is uncommon because it is hard to find suitable doctor in some cases like Varicocele,Esinophill count increase",
+        "Boon for Farmers.God bless who made this website.I would not recover so soon if this website would not be there. Feedback- Krishi Konnect has experts for everything",
       personIcon: "ion-ios7-person-outline",
       name: "Anoop Kumar",
     },
@@ -104,7 +107,7 @@ export default function FindDoctors() {
       <div className={styles.headerDiv}>
         <div className={styles.header}>
           <div className={styles.headerTitle}>
-            <h1>Your home for health</h1> 
+            <h1>Your Home for Agricultural Consultation</h1> 
           </div>
           <div className={styles.headerSmallTitle}>
             <h3>Find and Book</h3>
@@ -115,9 +118,9 @@ export default function FindDoctors() {
               <div className={styles.headerPopularSearchDiv}>
                 <div className={styles.headerPopularSearch}>
                   <span>Popular searches:</span>
-                  <span href="/">Dermatologist</span>
-                  <span href="/">Pediatrician</span>
-                  <span href="/">Gynecologist/Obstetrician</span>
+                  <span href="/">Organic Farming Expert</span>
+                  <span href="/">Hi-Tech Equipment Expert</span>
+                  <span href="/">Floriculture Expert</span>
                   <span href="/">Other</span>
                 </div>
               </div>
@@ -137,7 +140,7 @@ export default function FindDoctors() {
             </svg>
             
 
-              <div>Consult with a doctor</div>
+              <div>Consult with an Expert</div>
             </div>
             <div>
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -148,7 +151,7 @@ export default function FindDoctors() {
             </svg>
             
 
-              <div>Order Medicines</div>
+              <div>Marketplace </div>
             </div>
             <div>
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -160,7 +163,7 @@ export default function FindDoctors() {
             </svg>
             
 
-              <div>View medical records</div>
+              <div>View Production Records</div>
             </div>
             <div style={{ marginTop: "1px" }}>
               <div style={{ display: "flex" }}>
@@ -176,7 +179,7 @@ export default function FindDoctors() {
                   New
                 </span>
               </div>
-              <div>Book test</div>
+              <div>Book Crop Test</div>
             </div>
             <div>
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -191,7 +194,7 @@ export default function FindDoctors() {
             </svg>
             
 
-              <div>Read articles</div>
+              <div>Read Articles</div>
             </div>
             <div>
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -202,7 +205,7 @@ export default function FindDoctors() {
             </svg>
             
 
-              <div>For healthcare providers</div>
+              <div>For Consultancy Providers</div>
             </div>
           </div>
         </div>
@@ -301,7 +304,7 @@ export default function FindDoctors() {
               <div style={{ position: "relative" }}>
                 <div className={styles.flex1Heading}>
                   <h2 styles={{ display: "inline" }}>
-                    Instant appointment with doctors.
+                    Instant appointment with experts.
                     <strong>Guaranteed.</strong>
                   </h2>
                   <div className={styles.flex1Heading2ndH2}></div>
@@ -309,23 +312,23 @@ export default function FindDoctors() {
                 <div className={styles.tickBox}>
                   <div>
                     <i className="ion-checkmark-round"></i>
-                    <span><span className={styles.bold_txt}>100,000</span> Verified doctors</span>
+                    <span><span className={styles.bold_txt}>100,000</span> Verified experts</span>
                   </div>
                 </div>
                 <div className={styles.tickBox}>
                   <div>
                     <i className="ion-checkmark-round"></i>
-                    <span><span className={styles.bold_txt}>3M+</span> Patient recommendations</span>
+                    <span><span className={styles.bold_txt}>3K+</span> Farmers recommendations</span>
                   </div>
                 </div>
                 <div className={styles.tickBox}>
                   <div>
                     <i className="ion-checkmark-round"></i>
-                    <span><span className={styles.bold_txt}>25M</span> Patients/year</span>
+                    <span><span className={styles.bold_txt}>25K</span> Farmers/year</span>
                   </div>
                 </div>
                 <div className={`${styles.readMoreBox} ${styles.readMoreBox2}`}>
-                  <a href="/">Find me the right doctor</a>
+                  <a href="/">Find me the right expert</a>
                 </div>
                 <div style={{ position: "relative" }}>
                   <div className={styles.testimonials}>
@@ -415,7 +418,7 @@ export default function FindDoctors() {
               <div>
                 <div className={styles.flex1Heading}>
                   <h2 styles={{ display: "inline" }}>
-                    Skip the waiting room.<strong>Consult with a doctor</strong>
+                    Skip the waiting room.<strong>Consult with a Expert</strong>
                   </h2>
                   <div className={styles.flex1Heading2ndH2}></div>
                 </div>
@@ -430,7 +433,7 @@ export default function FindDoctors() {
                 <div className={styles.tickBox}>
                   <div>
                     <i className="ion-checkmark-round"></i>
-                    <span>Verified doctors respond in <span className={styles.bold_txt}>5 minutes</span></span>
+                    <span>Verified experts respond in <span className={styles.bold_txt}>5 minutes</span></span>
                   </div>
                 </div>
                 <div className={styles.tickBox}>
@@ -446,7 +449,7 @@ export default function FindDoctors() {
                   <i
                     className={`ion-ios7-circle-filled ${styles.cercleIcon}`}
                   ></i>
-                  <span>55629 doctors online</span>
+                  <span>5000+ experts online</span>
                 </div>
                 <div style={{ position: "relative" }}>
                   <div className={styles.testimonials}>
@@ -499,7 +502,7 @@ export default function FindDoctors() {
       <div className={styles.eighthPage}>
         <div className={styles.secondPageSubject}>
           <h2 className={styles.secondPageSubjectHeading}>
-            Read top articles from health experts
+            Read top articles from Agricultural Experts
           </h2>
           <div className={styles.secondPageSubjectData}>
             <div className={styles.slider}>
@@ -550,7 +553,7 @@ export default function FindDoctors() {
             <div className={styles.flex1}>
               <div>
                 <div className={styles.flex1Heading}>
-                  <h2>Get all your medicines.</h2>
+                  <h2>Get all your .</h2>Products
                   <h2>
                     <strong>Everytime. On time.</strong>
                   </h2>
@@ -564,7 +567,7 @@ export default function FindDoctors() {
                 <div className={styles.tickBox}>
                   <div>
                     <i className="ion-checkmark-round"></i>
-                    <span>Over <span className={styles.bold_txt}>130,000+</span> genuine medicines</span>
+                    <span>Over <span className={styles.bold_txt}>130,000+</span> genuine products</span>
                   </div>
                 </div>
                 <div className={styles.tickBox}>
@@ -577,7 +580,7 @@ export default function FindDoctors() {
                   <div
                     className={`${styles.readMoreBox} ${styles.readMoreBox3}`}
                   >
-                    <a href="/">Order Medicines</a>
+                    <a href="/">Order Farming Products</a>
                   </div>
                   <i
                     className={`ion-ios7-circle-filled ${styles.cercleIcon} ${styles.cercleIcon2}`}
@@ -585,7 +588,7 @@ export default function FindDoctors() {
                   <div className={styles.spanBox2}>
                     <span>
                       Last order delivered<span className={styles.bold_txt}> 2 mins 
-                      ago</span> in Andheri West, Mumbai
+                      ago</span> in Amritsar, Punjab
                     </span>
                   </div>
                 </div>
@@ -620,8 +623,8 @@ export default function FindDoctors() {
             <div className={styles.flex1}>
               <div>
                 <div className={styles.flex1Heading}>
-                  <h2>All your medical records</h2>
-                  <h2>In one secure app.</h2>
+                  <h2>All your farm records</h2>
+                  <h2>In one secure website.</h2>
                 </div>
                 <div className={styles.tickBox}>
                   <div>
@@ -638,7 +641,7 @@ export default function FindDoctors() {
                 <div className={styles.tickBox}>
                   <div>
                     <i className="ion-checkmark-round"></i>
-                    <span>Access your records across 8000+ centers</span>
+                    <span>Access your records across 80+ centers</span>
                   </div>
                 </div>
                 <div className={`${styles.readMoreBox} ${styles.readMoreBox5}`}>
@@ -655,20 +658,20 @@ export default function FindDoctors() {
             <div className={styles.flex1}>
               <div>
                 <div className={styles.flex1Heading}>
-                  <h2>Leading Healthcare Providers.</h2>
+                  <h2>Leading Agriculture Consultants.</h2>
                   <h2>Trust us for Business</h2>
                 </div>
                 <div className={styles.tickBox}>
                   <div>
                     <i className="ion-checkmark-round"></i>
-                    <span>Get seen by 25M+ patients on Practo.com</span>
+                    <span>Get seen by 3K+ experts on Krishi Konnect.com</span>
                   </div>
                 </div>
                 <div className={styles.tickBox}>
                   <div>
                     <i className="ion-checkmark-round"></i>
                     <span>
-                      The most advanced software for clinics and hospitals
+                      The most advanced software for farmers and experts
                     </span>
                   </div>
                 </div>
@@ -759,42 +762,42 @@ export default function FindDoctors() {
             <div className={styles.flex1}>
               <div>
                 <div className={styles.flex1Heading}>
-                  <h2>Download the Practo app</h2>
+                  <h2>Download the Krishi Konnect app</h2>
                 </div>
                 <div className={styles.tickBox}>
                   <div>
                     <i className="ion-checkmark-round"></i>
-                    <span>Book appointments and lab tests</span>
+                    <span>Book appointments and crop tests</span>
                   </div>
                 </div>
                 <div className={styles.tickBox}>
                   <div>
                     <i className="ion-checkmark-round"></i>
-                    <span>Order medicines</span>
+                    <span>Order Products</span>
                   </div>
                 </div>
                 <div className={styles.tickBox}>
                   <div>
                     <i className="ion-checkmark-round"></i>
-                    <span>Consult doctors online</span>
+                    <span>Consult experts online</span>
                   </div>
                 </div>
                 <div className={styles.tickBox}>
                   <div>
                     <i className="ion-checkmark-round"></i>
-                    <span>Set medicine reminders</span>
+                    <span>Set appointment reminders</span>
                   </div>
                 </div>
                 <div className={styles.tickBox}>
                   <div>
                     <i className="ion-checkmark-round"></i>
-                    <span>Store health records</span>
+                    <span>Store farm records</span>
                   </div>
                 </div>
                 <div className={styles.tickBox}>
                   <div>
                     <i className="ion-checkmark-round"></i>
-                    <span>Read health tips</span>
+                    <span>Read agriculture activities tips</span>
                   </div>
                 </div>
                 <div className={`${styles.appDownloadIcons}`}>
