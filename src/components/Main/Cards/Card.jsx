@@ -43,6 +43,7 @@ const Card = styled.div`
 
 		& > .img-1{
 			width: 80%;
+			height: 100px;
 		}
 		 
 		& > .img-2{

@@ -14,14 +14,14 @@ export default function FindDoctors() {
       img: "https://www.practostatic.com/fit/e5df380532ad97807c4b2e414a458cc292b1a53e",
 
       title: "Tips to follow for greater farm produce",
-      spanDoctors: "Dr. Yogesh Kumar, Alternative Medicine",
+      spanDoctors: "Yogesh Kumar, Agro expert",
       likeSpan: "309 Likes● 36501Views",
     },
     {
       img: "https://www.practostatic.com/fit/1da3446c1aca11295e4ea403b52fe8bc80b4c7c1",
 
       title: "Tips to follow for greater farm produce",
-      spanDoctors: "Dr. Yogesh Kumar, Alternative Medicine",
+      spanDoctors: "Yogesh Kumar, Farm Expert",
       likeSpan: "309 Likes● 36501Views",
     },
     {
@@ -29,7 +29,7 @@ export default function FindDoctors() {
 
       title: "Tips to follow for greater farm produce",
       
-      spanDoctors: "Dr. Yogesh Kumar, Alternative Medicine",
+      spanDoctors: "Yogesh Kumar, Farm Expert",
       likeSpan: "309 Likes● 36501Views",
     },
     {
@@ -37,7 +37,7 @@ export default function FindDoctors() {
 
       title: "Tips to follow for greater farm produce",
       
-      spanDoctors: "Dr. Yogesh Kumar, Alternative Medicine",
+      spanDoctors: "Yogesh Kumar, Farm Expert",
       likeSpan: "309 Likes● 36501Views",
     },
     {
@@ -45,7 +45,7 @@ export default function FindDoctors() {
 
       title: "Tips to follow for greater farm produce",
       
-      spanDoctors: "Dr. Yogesh Kumar, Alternative Medicine",
+      spanDoctors: "Yogesh Kumar, Farm Expert",
       likeSpan: "309 Likes● 36501Views",
     },
   ];
@@ -216,8 +216,7 @@ export default function FindDoctors() {
             <div className={styles.flex1}>
               <div>
                 <div className={styles.flex1Heading}>
-                  <h2>Safety of your data is our</h2>
-                  <h2>top priority.</h2>
+                  <h4>Safety of your data is our priority</h4>
                 </div>
                 <div className={styles.tickBox}>
                   <div>
@@ -246,7 +245,7 @@ export default function FindDoctors() {
               <div>
                 <div>
                   <img
-                    src="//www.practostatic.com/web-assets/home/assets/images/security_1.4f45ac92aba979dac915f864df632d90.png"
+                    src={require('./unkil.png')}
                     alt="img"
                   />
                 </div>
@@ -303,10 +302,10 @@ export default function FindDoctors() {
             <div className={styles.flex1}>
               <div style={{ position: "relative" }}>
                 <div className={styles.flex1Heading}>
-                  <h2 styles={{ display: "inline" }}>
-                    Instant appointment with experts.
-                    <strong>Guaranteed.</strong>
-                  </h2>
+                  <h5 styles={{ display: "inline" }}>
+                    Instant appointment with experts , Guaranteed.
+                  
+                  </h5>
                   <div className={styles.flex1Heading2ndH2}></div>
                 </div>
                 <div className={styles.tickBox}>
@@ -417,9 +416,9 @@ export default function FindDoctors() {
             <div className={`${styles.flex1} ${styles.flex12}`}>
               <div>
                 <div className={styles.flex1Heading}>
-                  <h2 styles={{ display: "inline" }}>
+                  <h6 styles={{ display: "inline" }}>
                     Skip the waiting room.<strong>Consult with a Expert</strong>
-                  </h2>
+                  </h6>
                   <div className={styles.flex1Heading2ndH2}></div>
                 </div>
                 <div className={styles.tickBox}>
@@ -553,10 +552,11 @@ export default function FindDoctors() {
             <div className={styles.flex1}>
               <div>
                 <div className={styles.flex1Heading}>
-                  <h2>Get all your .</h2>Products
-                  <h2>
+                  <h4>Get all your Products.</h4>
+                  
+                  <h5>
                     <strong>Everytime. On time.</strong>
-                  </h2>
+                  </h5>
                 </div>
                 <div className={styles.tickBox}>
                   <div>
@@ -598,7 +598,7 @@ export default function FindDoctors() {
               <div>
                 <div>
                   <img
-                    src="//www.practostatic.com/web-assets/home/assets/images/order.c84fc07b0be8a7e8d4db432eb4e606a2.svg"
+                   src={require('./sabziyan.png')}
                     alt="img"
                   />
                 </div>
@@ -623,8 +623,8 @@ export default function FindDoctors() {
             <div className={styles.flex1}>
               <div>
                 <div className={styles.flex1Heading}>
-                  <h2>All your farm records</h2>
-                  <h2>In one secure website.</h2>
+                  <h4>All your farm records</h4>
+                  <h5>In one secure website.</h5>
                 </div>
                 <div className={styles.tickBox}>
                   <div>
@@ -658,8 +658,8 @@ export default function FindDoctors() {
             <div className={styles.flex1}>
               <div>
                 <div className={styles.flex1Heading}>
-                  <h2>Leading Agriculture Consultants.</h2>
-                  <h2>Trust us for Business</h2>
+                  <h4>Leading Agriculture Consultants.</h4>
+                  <h6>Trust us for Business</h6>
                 </div>
                 <div className={styles.tickBox}>
                   <div>

@@ -36,27 +36,24 @@ const Footerwrapper = () => {
 						<h3>For Farmers</h3>
 
 						<p>Search for Experts</p>
-						<p>Serch for clinic</p>
-						<p>Search for hospitals</p>
-						<p>Book diaginistics checks</p>
-						<p>Book Full Body checkup</p>
-						<p>Practo plus</p>
+						<p>Search for Lab</p>
+						<p>Book Crop Checks</p>
+						<p>Book Full Farm Checkup</p>
+						<p>Krishi Konnect plus</p>
 					</div>
 					<div className='footerdata'>
 						<h3>For Experts</h3>
 
-						<p>Ray by Pacto</p>
-						<p>Practo Reach</p>
-						<p>Ray Tab</p>
-						<p>Practo Pro</p>
+						<p>Expert Details</p>
+						<p>Krishi Konnect Reach</p>
+						<p>Krishi Konnect Pro</p>
 					</div>
 					<div className='footerdata'>
 						<h3>Crop Lab</h3>
 
-						<p>Insta by Practo</p>
-						<p>Quickwell by Pacto</p>
-						<p>Practo Profile</p>
-						<p>Practo Reach</p>
+						<p>Lab Location</p>
+						<p>Krishi Konnect Profile</p>
+						<p>Krishi Konnect Reach</p>
 					</div>
 					<div className='footerdata'>
 						<h3>More</h3>
@@ -65,7 +62,7 @@ const Footerwrapper = () => {
 						<p>Developers</p>
 						<p>Privacy Policy</p>
 						<p>Terms and Conditions</p>
-						<p>Healthcare directory</p>
+						<p>Database directory</p>
 					</div>
 					<div className='footerdata'>
 						<h3>Social</h3>

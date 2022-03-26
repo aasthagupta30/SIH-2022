@@ -1,6 +1,12 @@
 import styles from './Appointment.module.css';
 import SliderWrapper from '../../SliderWrapper/SliderWrapper';
 import Category from '../../Videoconsult/Category';
+import img1 from "./agronomy.jpeg"
+import img2 from "./livestock.jpeg"
+import img3 from "./nutrition.jpeg"
+import img4 from "./conservation.jpeg"
+import img5 from "./waste management.jpeg"
+import img6 from "./technology.jpeg"
 
 const AppointmentCard = ({ img, title, desc }) => <div className={styles.appointment_card}>
 	<div className={styles.appointment_card_img}>
@@ -13,58 +19,47 @@ const AppointmentCard = ({ img, title, desc }) => <div className={styles.appoint
 const Appointment = () => {
 	const appointments = [
 		{
-			img: 'https://www.practostatic.com/consumer-home/desktop/images/1558283618/sp-dentist@2x.jpg',
-			title: 'Dentist',
-			desc: 'Teething troubles? Schedule a dental checkup'
+			img: img1,
+			title: 'Agronomy',
+			desc: 'Want to  increase farm produce?'
 		},
 		{
-			img: 'https://www.practostatic.com/consumer-home/desktop/images/1558283618/sp-gynecologist@2x.jpg',
-			title: 'Gynecologist/Obstetrician',
-			desc: 'Explore for women’s health, pregnancy and infertility treatments'
+			img: img2,
+			title: 'Livestock',
+			desc: 'Want to plan crop production throughout year?'
 		},
 		{
-			img: 'https://www.practostatic.com/consumer-home/desktop/images/1558283618/sp-dietitian@2x.jpg',
-			title: 'Dietitian/Nutrition',
-			desc: 'Get guidance on eating right, weight management and sports nutrition'
+			img: img3,
+			title:'Nutrition',
+			desc: 'Want to increase the nutrition value of crop?'
 		},
 		{
-			img: 'https://www.practostatic.com/consumer-home/desktop/images/1558283618/sp-physiotherapist@2x.jpg',
-			title: 'Physiotherapist',
-			desc: 'Pulled a muscle? Get it treated by a trained physiotherapist'
+			img: img4,
+			title: 'Environment Conservation',
+			desc: 'Want to get right tips for conservation'
 		},
 		{
-			img: 'https://www.practostatic.com/consumer-home/desktop/images/1558283618/sp-general-surgeon@2x.jpg',
-			title: 'General surgeon',
-			desc: 'Need to get operated? Find the right surgeon'
+			img: img5,
+			title: 'Waste Management',
+			desc: 'Need to get policy maked? Find the right expert'
 		},
 		{
-			img: 'https://www.practostatic.com/consumer-home/desktop/images/1558283618/sp-orthopedist@2x.jpg',
-			title: 'Orthopedist',
-			desc: 'For Bone and Joints issues, spinal injuries and more'
+			img: img6,
+			title: 'Technical applications',
+			desc: 'Want to get services realted to environment sciences and technology?'
 		},
-		{
-			img: 'https://www.practostatic.com/consumer-home/desktop/images/1558283618/sp-general-doctor@2x.jpg',
-			title: 'General physician',
-			desc: 'Find the right family doctor in your neighborhood'
-		},
-		{
-			img: 'https://www.practostatic.com/consumer-home/desktop/images/1558283618/sp-pediatrician@2x.jpg',
-			title: 'Pediatrician',
-			desc: 'Child Specialists and Doctors for Infant'
-		},
-		{
-			img: 'https://www.practostatic.com/consumer-home/desktop/images/1558283618/sp-gastroenterologist@2x.jpg',
-			title: 'Gastroenterologist',
-			desc: 'Explore for issues related to digestive system, liver and pancreas'
-		}
+		
+		
 	];
 
 	const arr = appointments.map((el) => <AppointmentCard {...el} />);
 
 	return (
 		<Category
-			heading='Book an appointment for an in-clinic consultation'
-			description='Find experienced doctors across all specialties'
+			heading='Types of agricultural consultant'
+
+			description='As an agricultural consultant, youll usually consult on either technical or business matters.
+			Technical consultants provide specialist advice on:'
 		>
 			<SliderWrapper arr={arr} limit={4.60} />
 		</Category>

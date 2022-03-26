@@ -21,7 +21,8 @@ const info = [
         title: 'Government Schemes',
         desc: 'Schemes related to Agriculture',
         img: img4,
-        bg: '#ccd0db'
+        bg: '#ccd0db',
+        href:"https://www.india.gov.in/topics/agriculture"
     },
     {
         title: 'Crop Tests',
@@ -33,7 +34,8 @@ const info = [
         title: 'Agro Updates',
         desc: 'Daily Updates',
         img:img1,
-        bg: '#d5d8fc'
+        bg: '#d5d8fc',
+        href:"https://farmer.gov.in/"
     }
 ];
 

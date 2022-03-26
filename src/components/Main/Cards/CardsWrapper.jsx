@@ -8,10 +8,11 @@ const CardsWrapper = () => {
 	return (
 		<Section className='mt-60'>
 			<Cards id="cards_content" className='content'>
-				{imageInfo.map(({ title, desc, img, bg }, indx) => (
+				{imageInfo.map(({ title, desc, img, bg,href }, indx) => (
 					<Card bg={bg} key={title} className={`Card`}>
 						<div className='img-wrapper'>
-							<img className={`img-${indx}`} src={img} alt={title} /> 
+							<a href={href}>
+							<img className={`img-${indx}`} src={img} alt={title} /> </a>
 							
 						</div>
 						<div className='info'>
