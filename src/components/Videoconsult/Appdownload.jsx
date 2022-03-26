@@ -7,11 +7,11 @@ const Appdownload=()=>{
       <div className={style.grey}>
                 <div className={`${style.appdownlodsection} content`} id="download">
               <figure className={style.fig}>
-                 <img  className={style.img} src="https://www.practo.com/consult/static/images/app-download-banner-web.png" alt="" />
+                 <img  className={style.img} src={require('./Group 21.png')} alt="" />
               </figure>
               <div className={style.content} id="downloadsub2"> 
-                  <h2 className={style.head}>Download the Practo app</h2>
-                  <p  className={style.desc}>Get ₹200 HealthCash</p>
+                  <h2 className={style.head}>Download the Krishi Konnect app</h2>
+                  
                   <ul  className={style.ul} >
                       <li className={style.li}>
                       <i className="ion-checkmark-round" style={{marginRight:"10px",color:"#14bef0"}}></i>
@@ -19,12 +19,9 @@ const Appdownload=()=>{
                       </li>
                       <li className={style.li}>
                       <i className="ion-checkmark-round" style={{marginRight:"10px", color:"#14bef0"}}></i>
-                      Live medicine order tracking
+                      Live products order tracking
                       </li>
-                      <li className={style.li}>
-                      <i className="ion-checkmark-round" style={{marginRight:"10px",color:"#14bef0"}}></i>
-                      Exclusive healthcare packages
-                      </li>
+                      
                       <li className={style.li}>
                       <i className="ion-checkmark-round" style={{marginRight:"10px",color:"#14bef0"}}></i>
                       Ask free questions

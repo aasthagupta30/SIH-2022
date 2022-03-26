@@ -11,7 +11,7 @@ const Black=()=>{
                 </div>
                 <div className={style.eachmetric}>
                   <p className={style.metriccount}>20,000+</p>
-                  <p className={style.namemetric}>Verified Doctors</p>
+                  <p className={style.namemetric}>Verified Experts</p>
                 </div>
                 <div className={style.eachmetric}>
                   <p className={style.metriccount}>25+</p>

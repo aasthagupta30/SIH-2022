@@ -39,16 +39,16 @@ function App() {
 				<Route exact path='/doctors'>
 					<FindDoctors />
 				</Route>
-				<Route path='/signup'> 
+				{/* <Route path='/signup'> 
 					<Signup/>
-					{/* <loginKrishi /> */}
+					{<loginKrishi /> }
 				</Route> 
 				<Route exactpath='/consultpage'>
 					<ConsultPage />
 				</Route>
 				<Route exact path='/consult-doctor'>
 					<Flow2ConsultPage />
-				</Route>
+				</Route> */}
 				<Route path='/video-consult'>
 					<Videoconsult />
 				</Route>

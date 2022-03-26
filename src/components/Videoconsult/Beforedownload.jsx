@@ -7,8 +7,8 @@ const Beforedownload=()=>{
              <div className={style.lvl2}>
              <div className={style.lvl3} id="beforedownload">
                  <div className={style.sub1}>
-                     <h2 className={style.head1}>Still delaying your health concerns ?</h2>
-                     <p className={style.para1}>Connect with India's top doctors online</p>
+                     <h2 className={style.head1}>Still delaying your farming concerns ?</h2>
+                     <p className={style.para1}>Connect with India's top experts online</p>
                  </div>
                  <div className={style.sub2}>
            <a href="/doctor" className={style.link} >Consult now</a>

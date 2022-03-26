@@ -14,11 +14,11 @@ const Benifit = () => {
                 <img src="https://img.icons8.com/material-outlined/24/000000/checkmark--v1.png" alt="a"
                 className={style.tick}
                 />
-                  Consult Top Doctors 24x7
+                  Consult Top Experts 24x7
                 </h3>
                 <p className={style.gridcont1para}>
                   Connect instantly with a 24x7 specialist or choose to video
-                  visit a particular doctor.
+                  visit a particular expert.
                 </p>
               </div>
             </div>
@@ -57,7 +57,7 @@ const Benifit = () => {
                 Similar Clinic Experience
                 </h3>
                 <p className={style.gridcont1para}>
-                Experience clinic-like consultation through a video call with the doctor. Video consultation is available only on the Practo app.
+                Experience consultation through a video call with the expert. Video consultation is available only on the Krishi-Konnect app.
                 </p>
               </div>
             </div>
@@ -70,7 +70,7 @@ const Benifit = () => {
                   Free Follow-up
                 </h3>
                 <p className={style.gridcont1para}>
-                Get a valid digital prescription and a 7-day, free follow-up for further clarifications.
+                Get a valid digital prescription and a free follow-up for further clarifications.
                 </p>
               </div>
             </div>

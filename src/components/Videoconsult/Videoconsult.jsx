@@ -16,18 +16,18 @@ const Videoconsult=()=>{
     return(
        <div className="bg-white">
        <Pinkheader/>
-       <Specialities />
-       <CommonConcerns />
-        <Offers />
+       {/* <Specialities /> */}
+       {/* <CommonConcerns /> */}
+        {/* <Offers /> */}
         <OurDoctors />
        <Howitworks/>
        <Black/>
        <Benifit/>
        <Faq/>
-       <Healthqueries/>
+       {/* <Healthqueries/> */}
        <Beforedownload/>
        <Appdownload/>
         </div>
     )
 }
-export default Videoconsult
+export default Videoconsult;

@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     border: 0;
-    vertical-align: baseline;
+    /* vertical-align: baseline; */
     box-sizing: inherit;
     display: block;
     font-weight: 400;
@@ -11,16 +11,16 @@
 }
 
 .pink {
-    background-color: #f8e9e6;
+    background-color: rgb(252, 252, 186);
     margin: 0;
     padding: 0;
     border: 0;
 }
 
 .consult_now {
-    background: #14bef0;
+    background: #9BE564;
     color: #fff;
-    border: 1px solid #14bef0;
+    border: 1px solid #9BE564;
     font-weight: 700;
     text-align: center;
     display: inline-block;
@@ -165,7 +165,7 @@
     font-family: practicon, sans-serif;
     font-style: normal;
     font-weight: 400;
-    speak: none;
+    /* speak: none; */
     display: inline-block;
     text-decoration: inherit;
     width: 1em;
@@ -181,7 +181,7 @@
     font-family: practicon, sans-serif;
     font-style: normal;
     font-weight: 400;
-    speak: none;
+    /* speak: none; */
     display: inline-block;
     text-decoration: inherit;
     width: 1em;
@@ -201,7 +201,7 @@
     margin-right: 5px;
 }
 
-.icon-ic_message {}
+/* .icon-ic_message {} */
 
 @media (max-width: 600px) {
 

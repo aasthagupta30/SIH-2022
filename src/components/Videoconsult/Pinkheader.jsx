@@ -11,10 +11,10 @@ const Pinkheader = () => {
 						<div className={style.heading} id='pinkheading'>
 							Skip the travel!
 							<br />
-							<h4>Take Online Doctor Consultation</h4>
+							<h4>Take Online Expert Consultation</h4>
 						</div>
 						<p className={style.desc} id='pinksub'>
-							Private consultation + Audio call · Starts at just <span className='rupees_symbol'>₹</span>199
+							Private consultation + Audio call
 						</p>
 						<article className={style.cardstrip}>
 							<div className={style.docimg}>
@@ -48,21 +48,21 @@ const Pinkheader = () => {
 										marginLeft: '15px'
 									}}
 								>
-									+108 doctors online <span className={style.pulse} />
+									+108 experts online <span className={style.pulse} />
 								</span>
 							</div>
 						</article>
-						{/* <a href="/doctor" className={style.consultnow}>
+						{/* <a href="/expert" className={style.consultnow}>
               Consult now
             </a> */}
-						<Link className={style.consult_now} to='/consult-doctor'>
+						<Link className={style.consult_now} to='/consult-expert'>
 							Consult now
 						</Link>
 					</div>
 					<img
 						className={style.banner}
 						id='pinkbanner'
-						src='https://www.practo.com/consult/static/images/homepage-hero-image-web-v1.png'
+						src={require('./undraw_Chatting_re_j55r-removebg-preview.png')}
 						alt=''
 					/>
 					<div className={style.add} id='add'>
@@ -71,18 +71,18 @@ const Pinkheader = () => {
 							alt='a'
 							style={{ width: '20px', height: '20px', marginRight: '5px' }}
 						/>
-						<p>Verified Doctors</p>
-						<img
-							src='https://img.icons8.com/external-those-icons-lineal-color-those-icons/24/000000/external-prescription-medical-healthcare-those-icons-lineal-color-those-icons.png'
+						<p>Verified experts</p>
+						{/* <img
+							// src='https://img.icons8.com/external-those-icons-lineal-color-those-icons/24/000000/external-prescription-medical-healthcare-those-icons-lineal-color-those-icons.png'
 							alt='p'
 							style={{
 								width: '20px',
 								height: '20px',
 								marginRight: '5px',
 								marginLeft: '5px'
-							}}
-						/>
-						<p>Digital Prescription</p>
+							}} */}
+						{/* /> */}
+						{/* <p>Digital Prescription</p> */}
 						<img
 							src='https://img.icons8.com/windows/32/000000/chat-message.png'
 							alt='m'

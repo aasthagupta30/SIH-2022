@@ -23,7 +23,7 @@ const OurDoctors = () => {
 	const offers = [
 		{
 			name: 'Dr. Murali Reddy',
-			type: 'Dermatologist',
+			type: 'Agrologist',
 			exp: 5,
 			consults: 3367,
 			rating: 4.5,
@@ -31,7 +31,7 @@ const OurDoctors = () => {
 		},
 		{
 			name: 'Dr. Jayaprakasha G',
-			type: 'Sexologist',
+			type: 'Agrologist',
 			exp: 27,
 			consults: 10149,
 			rating: 4.5,
@@ -39,7 +39,7 @@ const OurDoctors = () => {
 		},
 		{
 			name: 'Dr. Kamal Kishore Verma',
-			type: 'Psychiatrist, Sexologist',
+			type: 'Agrologist',
 			exp: 12,
 			consults: 30092,
 			rating: 4.5,
@@ -47,7 +47,7 @@ const OurDoctors = () => {
 		},
 		{
 			name: 'Dr. Sowmyashree N',
-			type: 'Gynecologist, Obstetrician',
+			type: 'Agrologist',
 			exp: 6,
 			consults: 14491,
 			rating: 4.5,
@@ -55,7 +55,7 @@ const OurDoctors = () => {
 		},
 		{
 			name: 'Dr. Ravindrakumar Awachar',
-			type: 'Sexologist',
+			type: 'Agrologist',
 			exp: 10,
 			consults: 11604,
 			rating: 4.5,
@@ -63,7 +63,7 @@ const OurDoctors = () => {
 		},
 		{
 			name: 'Dr. Asmeet Kaur Sawhney',
-			type: 'Dermatologist',
+			type: 'Agrologist',
 			exp: 9,
 			consults: 9042,
 			rating: 4.5,
@@ -71,7 +71,7 @@ const OurDoctors = () => {
 		},
 		{
 			name: 'Dr. Vandana',
-			type: 'Gynecologist, Laparoscopic Surgeon (Obs & Gyn)',
+			type: 'Agrologist',
 			exp: 9,
 			consults: 11403,
 			rating: 4.5,
@@ -79,7 +79,7 @@ const OurDoctors = () => {
 		},
 		{
 			name: 'Dr. Swarupa Amaravadi',
-			type: 'Gynecologist, Obstetrician',
+			type: 'Agrologist',
 			exp: 26,
 			consults: 4416,
 			rating: 4,
@@ -90,7 +90,7 @@ const OurDoctors = () => {
 	const arr = offers.map((el) => <TestimonialCard {...el} />);
 
 	return (
-		<Category heading='Our Doctors'>
+		<Category heading='Our Experts'>
 			<SliderWrapper arr={arr} limit={3} />
 		</Category>
 	);

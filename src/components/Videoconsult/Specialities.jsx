@@ -68,7 +68,7 @@ const Specialities = () => {
 	return (
 		<Category
 			heading='25+ Specialities'
-			description='Consult with top doctors across specialities'
+			description='Consult with top experts across specialities'
 			type='Specialities'
 		>
 			<SliderWrapper arr={arr} limit={6} />

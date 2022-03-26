@@ -15,7 +15,7 @@ const Howitworks = () => {
 
             </div>
             <div className={style.eachpropcontent}>
-              <p className={style.desc}>Select a speciality or symptom</p>
+              <p className={style.desc}>Select a speciality or problem</p>
             </div>
           </div>
           <div className={style.eachprop}>
@@ -27,7 +27,7 @@ const Howitworks = () => {
             </div>
             <div className={style.eachpropcontent}>
               <p className={style.desc}>
-                Audio/ video call with a verified doctor
+                Audio/ video call with a verified expert
               </p>
             </div>
           </div>
