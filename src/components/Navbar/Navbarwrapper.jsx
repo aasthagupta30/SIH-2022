@@ -26,7 +26,7 @@ const Navbarwrapper = () => {
 
 	return (
 		<Section>
-			<Navbar fixed={pathname === '/doctors' ? true : false}>
+			<Navbar fixed={pathname === '/experts' ? true : false}>
 				<div className='nav'>
 					<input type='checkbox' checked={sidebarOpen} name='hamburger_menu' id='hamburger_icon' />
 					<div className='mobile_list'>

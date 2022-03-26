@@ -4,6 +4,12 @@ import SearchBar from "../SearchBar/Searchbar";
 import cart from "./shopping-cart-simple.png";
 import record from "./notebook.png";
 import article from "./book-open.png";
+import img1 from "./farmproduce.jpeg";
+import img2 from "./tips.jpg";
+import img3 from "./tips2.jpg";
+import img4 from "./tips3.jpg";
+import img5 from "./tips4.jpg";
+
 
 export default function FindDoctors() {
   const [position, setPosition] = useState(0);
@@ -11,29 +17,21 @@ export default function FindDoctors() {
 
   let arr = [
     {
-      img: "https://www.practostatic.com/fit/e5df380532ad97807c4b2e414a458cc292b1a53e",
+      img: img1,
 
       title: "Tips to follow for greater farm produce",
       spanDoctors: "Yogesh Kumar, Agro expert",
       likeSpan: "309 Likes● 36501Views",
     },
     {
-      img: "https://www.practostatic.com/fit/1da3446c1aca11295e4ea403b52fe8bc80b4c7c1",
+      img: img2,
 
       title: "Tips to follow for greater farm produce",
       spanDoctors: "Yogesh Kumar, Farm Expert",
       likeSpan: "309 Likes● 36501Views",
     },
     {
-      img: "https://www.practostatic.com/fit/6147081e5f5d09a285ee9904bfdd26bf96998d47",
-
-      title: "Tips to follow for greater farm produce",
-      
-      spanDoctors: "Yogesh Kumar, Farm Expert",
-      likeSpan: "309 Likes● 36501Views",
-    },
-    {
-      img: "https://www.practostatic.com/fit/1248187c88fa20fb11116f02779b39d48c3c9b3d",
+      img: img3,
 
       title: "Tips to follow for greater farm produce",
       
@@ -41,7 +39,15 @@ export default function FindDoctors() {
       likeSpan: "309 Likes● 36501Views",
     },
     {
-      img: "https://www.practostatic.com/fit/eb77fb7edc101645ee455f878299f68f8a3766c4",
+      img: img4,
+
+      title: "Tips to follow for greater farm produce",
+      
+      spanDoctors: "Yogesh Kumar, Farm Expert",
+      likeSpan: "309 Likes● 36501Views",
+    },
+    {
+      img: img5,
 
       title: "Tips to follow for greater farm produce",
       
@@ -377,12 +383,10 @@ export default function FindDoctors() {
             <div className={styles.flex2}>
               <div>
                 <div>
-                  <video autoPlay loop muted>
-                    <source
-                      type="video/webm"
-                      src="//www.practostatic.com/web-assets/home/assets/videos/appointment.700ce682eaec91bf93b6574cb8f09cd0.webm"
-                    />
-                  </video>
+                <img
+                   src={require('./von.png')}
+                    alt="img"
+                  />	
                 </div>
               </div>
             </div>
@@ -404,12 +408,10 @@ export default function FindDoctors() {
             <div className={styles.flex2}>
               <div>
                 <div>
-                  <video autoPlay loop muted>
-                    <source
-                      src="//www.practostatic.com/web-assets/home/assets/videos/consult.099446892618434cc8a038d7844c4380.webm"
-                      type="video/webm"
-                    />
-                  </video>
+                <img 
+                   src={require('./Group 15.png')}
+                    alt="img"
+                  />
                 </div>
               </div>
             </div>
@@ -737,7 +739,7 @@ export default function FindDoctors() {
               <div>
                 <div>
                   <img
-                    src="//www.practostatic.com/web-assets/home/assets/images/provider.c4a3d938da109434de6ce3a9046bbf42.png"
+                     src={require('./chat.png')}
                     alt="img"
                   />
                 </div>

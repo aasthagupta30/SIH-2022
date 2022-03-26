@@ -30,9 +30,11 @@ const Card = styled.div`
 			/* position: relative; */
 			/* top: 1.2rem; */
 			width: 100%;
+			max-height: 200px;
 			/* width: auto; */
 			/* width: 150%; */
 			/* height: 100%; */
+			
 		}
 
 		& > .img-0{
@@ -56,8 +58,8 @@ const Card = styled.div`
 		}
 
 		& > .img-4{
-			width: 85%;
-			height: 100%
+			height: 150px;
+			object-fit: cover;
 		}
 
 	}

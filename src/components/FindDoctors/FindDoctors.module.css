@@ -5,7 +5,7 @@
 }
 
 .header {
-  background-image: url("https://www.practostatic.com/web-assets/home/assets/images/homepage.06859593240c3efd483fe48951cfe6ff.svg");
+  background-image: url("C:\Users\Asus\Downloads\SIH-2022-master\SIH-2022-master\src\components\FindDoctors\pop.jpeg");
   /* height: 100%; */
   min-height: 460px;
   position: relative;
@@ -59,7 +59,8 @@
 .headerIconDiv {
   color: white;
   font-size: 140%;
-  background-color: #1d2869;
+
+  background-color: #7D4518;
   text-align: center;
   /* padding-left: 45px; */
   /* padding: 20px 0px; */
@@ -79,7 +80,7 @@
 .headerIcon > div {
   /* margin: 0px 25px; */
   padding: 0 2.5rem;
-  border-right: 1px solid #4a5387;
+  border-right: 1px solid #9BE564;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -203,7 +204,7 @@
 }
 
 .tickBox i {
-  color: #14bef0;
+  color: #9BE564;
   margin-right: 8px;
 }
 
@@ -211,7 +212,7 @@
   display: inline-block;
   font-size: 18px;
   width: 130px;
-  background-color: #14bef0;
+  background-color: #9BE564;
   text-align: center;
   /* height: 50px; */
   padding: 10px 0px;
@@ -336,7 +337,7 @@
 }
 
 .cercleIcon {
-  color: blueviolet;
+  color: #D19C1D;
   margin: 0px 5px;
   font-size: 18px;
 }
@@ -540,8 +541,8 @@
 }
 
 .secondPageSubjectReadmore {
-  background: #14bef0;
-  border: 1px solid #14bef0;
+  background: #9BE564;
+  border: 1px solid #9BE564;
   font-weight: 400;
   font-family: "CamphorBold";
   color: white;
