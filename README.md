@@ -1,7 +1,7 @@
 
-# Practo Clone
+# KISAN KONNECT
 
-This is a clone of the Practo India App, built with ReactJS, styled-components, and Axios. The desktop app and mobile app have been made for the same using PWA (Progressive Web Apps).
+This is an  App, built with ReactJS, styled-components, and Axios. The desktop app and mobile app have been made for the same using PWA (Progressive Web Apps).
 
 
 ## Deployed
